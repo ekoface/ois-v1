@@ -3,7 +3,7 @@ import java.lang.Math;
 
 public class Gravitacija {
 
-    public static double Izracun (int visina) {
+    public static double Izracun () {
         Scanner sc = new Scanner(System.in);
         double v = sc.nextDouble();
         double c = 6.674 * Math.pow(10, -11);
