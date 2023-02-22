@@ -20,6 +20,6 @@ public class Gravitacija {
     public static void main(String[] args) {
 
         //testis
-        
+        double gravPospesek = Izracun();
     }
 }
