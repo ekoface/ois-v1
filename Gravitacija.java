@@ -4,7 +4,7 @@ import java.lang.Math;
 
 public class Gravitacija {
 
-    public static double Izracun () {
+    public static double Izracun (double v) {
         
         double c = 6.674 * Math.pow(10, -11);
         double m = 5.972 * Math.pow(10, 24);
@@ -22,15 +22,15 @@ public class Gravitacija {
         double v = sc.nextDouble();
 
         //testis
-        double gravPospesek = Izracun();
-        izpis(v,gravPospesek)
+        double gravPospesek = Izracun(v);
+        izpis(v,gravPospesek);
 
     }
 
 
 
     public static void izpis(double visina, double gravPospesek){
-        System.out.printf("Na visini %f, je gravitacijski pospesek %f %n", visina, gravPospesek);
+        System.out.printf("Na visini %.2f, je gravitacijski pospesek %.2f %n", visina, gravPospesek);
     }
 }
 
